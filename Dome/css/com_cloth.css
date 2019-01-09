@@ -1,0 +1,71 @@
+
+/*精品男装*/
+.box_special{
+	width: 1240px;
+	height: 800px;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+.special{
+	width: 1240px;
+	height: 720px;
+	margin-top: 20px;
+	/*background-color: #204056;*/
+}
+.special_content{
+	float: left;
+	width: 232px;
+	height: 340px;
+	margin-top: 20px;
+	margin-left: 13px;
+	border: 1px solid #204056;
+	/*background-color: red;*/
+}
+.spe_img{
+	width: 230px;
+	height: 220px;
+}
+.spe_xs_img{
+	width: 78px;
+	height: 25px;
+}
+.spe_txt_title{
+	width:232px;
+	height: 25px;
+	font-size: 15px;
+	font-weight: 900;
+	color: #333333;
+	line-height: 25px;
+	text-indent: 20px;
+}
+.spe_txt_content{
+	width: 232px;
+	height: 20px;
+	font-size: 12px;
+	color: #666666;
+	line-height: 20px;
+	text-indent: 20px;
+}
+.spe_price{
+	width: 232px;
+	height: 30px;
+	font-size: 15px;
+	font-weight: 900;
+	color: #F65A5B;
+	line-height: 30px;
+	text-indent: 20px;
+	position: relative;
+}
+.spe_price_buy{
+	width: 100px;
+	height: 30px;
+	border: none;
+	background-color: #F65A5B;
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	right: 20px;
+	font-size: 13px;
+	color: rgb(255,255,255);
+	line-height: 30px;
+}

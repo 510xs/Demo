@@ -1,0 +1,3 @@
+function slider(name1){
+	
+}

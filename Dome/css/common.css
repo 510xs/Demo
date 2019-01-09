@@ -1,0 +1,304 @@
+*{margin:0 auto;padding: 0;box-sizing: border-box;}
+body{
+	width: 100%;
+	margin:0 auto;
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+.fl{float: left;}
+.fc{clear: both;}
+/*顶部内容*/
+.title{
+	width:100%;
+	height:50px;
+	margin: 0 auto;
+	background-color: #F65A5B;
+}
+.title a{
+	color: rgb(255,255,255);
+}
+.title_box{
+	width: 1240px;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+	background-color: none;
+}
+.title_box_user{
+	width:400px;
+	height: 50px;
+	font-size: 14px;
+	color: rgb(255,255,255);
+	line-height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.title_box_user a{
+	color: #204056;
+	margin-left: 5px;
+	font-size: 16px;
+	text-decoration: underline;
+}
+.title_box ul{
+	width: 330px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	list-style-type: none;
+}
+.myaccount{
+	width: 110px;
+	height: 50px;
+	position: relative;
+	font-size: 14px;
+	color: rgb(255,255,255);
+	text-indent: 40px;
+	line-height: 50px;
+}
+.title_box_img{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+.title_box_img2{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 12.5px;
+	left: 10px;
+}
+.title_box_line{
+	width: 1px;
+	height: 25px;
+	border-right: 2px solid rgb(255,255,255);
+	position: absolute;
+	top: 12.5px;
+	right: 0px;
+}
+
+/*logo*/
+.logo_box{
+	width: 1240px;
+	height: 120px;
+	margin: 0 auto;
+	position: relative;
+}
+.img_logo01{
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+}
+.box_serch{
+	width: 520px;
+	height: 40px;
+	border: 2px solid #F65A5B;
+	position: absolute;
+	top: 70px;
+	left: 540px;
+}
+#serch{
+	width: 449px;
+	height: 35px;
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 1.5px;
+}
+.serch_line{
+	width: 1px;
+	height: 20px;
+	border-right: 1.5px solid #F65A5B;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	left: 451px;
+}
+.serch_btn{
+	width: 60px;
+	height: 36px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.serch_img{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -10px;
+	margin-left: -15px;
+}
+.shopcart{
+	width: 110px;
+	height: 40px;
+	background-color: #F65A5B;
+	border: none;
+	position: absolute;
+	top: 70px;
+	right: 50px;
+	font-size: 15px;
+	font-weight: 900;
+	color: rgb(255,255,255);
+	line-height: 40px;
+	text-indent: 38px;
+	cursor: pointer;
+}
+.shopCart_img{
+	width: 28px;
+	height: 25px;
+	position: absolute;
+	top: 7.5px;
+	left: 8px;
+}
+
+/*导航栏*/
+.nav_box{
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	background-color: #F5F5F5;
+}
+.nav_content{
+	width: 1240px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+}
+.nav_ul{
+	width: 1240px;
+	height: 60px;
+	list-style-type: none;
+}
+.nav_color{
+	background-color: #204056;
+}
+.nav_color a{
+	color: rgb(255,255,255);
+}
+.nav_li{
+	width: 100px;
+	height: 60px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 60px;
+	cursor: pointer;
+}
+
+/*小贴士*/
+.tips{
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 100px;
+	position: relative;
+	background-color: #F5F5F5;
+}
+.tips_hr{
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 3px solid #F65A5B;
+}
+.tips_content{
+	width: 1240px;
+	height: 50px;
+	margin: 0 auto;
+	top: 15px;
+	overflow: hidden;
+	position: relative;
+}
+.tips_content img{
+	position: absolute;
+}
+.tips_img1{
+	top: 0;
+	left: 275px;
+}
+.tips_img2{
+	left: 450px;
+	top: -52px;
+}
+.tips_img3{
+	left: 625px;
+	top: -104px;
+}
+.tips_img4{
+	left: 800px;
+	top: -156px;
+}
+
+/*页脚*/
+.footer{
+	width: 100%;
+	height: 340px;
+	background-color: #333333;
+	margin: 0 auto;
+}
+.footer_content{
+	width: 1240px;
+	height: 340px;
+	margin: 0 auto;
+	position: relative;
+}
+.ul_about{
+	width: 380px;
+	height: 240px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.ul_li_title{
+	width: 380px;
+	height: 60px;
+	font-size: 18px;
+	font-weight: 900;
+	color: rgb(255,255,255);
+	line-height: 60px;
+	list-style: none;
+}
+.ul_about_content{
+	width: 380px;
+	height: 180px;
+	font-size: 13px;
+	color: rgb(255,255,255);
+}
+.ul_service{
+	width: 100px;
+	height: 240px;
+	position: absolute;
+	top: 0;
+	left: 540px;
+}
+.ul_li_row{
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	text-indent: 10px;
+	color: #B2B2B2;
+	list-style-type: square;
+}
+.ul_personal{
+	width: 100px;
+	height: 240px;
+	position: absolute;
+	top: 0;
+	left: 840px;
+}
+.ul_more{
+	width: 100px;
+	height: 240px;
+	position: absolute;
+	top: 0;
+	left: 1140px;
+}
+

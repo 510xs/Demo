@@ -1,0 +1,91 @@
+.suc_content{
+	width:1240px;
+	height: 320px;
+	margin: 0 auto;
+	margin-top: 60px;
+	/*background-color: pink;*/
+}
+.suc_title{
+	width: 1240px;
+	height: 40px;
+	position: relative;
+}
+.suc_title_left{
+	width: 300px;
+	height: 25px;
+	position: absolute;
+	top: 0;
+	left: 30px;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 25px;
+	/*background-color: red;*/
+}
+.suc_title_right{
+	width: 200px;
+	height: 15px;
+	position: absolute;
+	top: 25px;
+	right: 0px;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.shop_edit{
+	width: 1240px;
+	height: 40px;
+	position: relative;
+}
+.shop_edit_left,.suc_address_left{
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	bottom: 0px;
+	left: 30px;
+	font-size: 15px;
+	color: #333333;
+}
+.shop_edit_right,.suc_address_right{
+	width: 500px;
+	height: 20px;
+	position: absolute;
+	bottom: 0px;
+	left: 130px;
+	font-size: 14px;
+	color: #666666;
+}
+.shop_edit_pay{
+	width: 200px;
+	height: 20px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 15px;
+}
+.suc_address{
+	width: 1240px;
+	margin-top: 10px;
+	height: 20px;
+	position: relative;
+}
+.suc_href{
+	width: 1240px;
+	height: 30px;
+	margin-top: 100px;
+}
+.suc_about{
+	width: 500px;
+	height: 30px;
+	font-size: 14px;
+	color: #333333;
+	margin-left: 30px;
+}
+.moneny{
+	font-size: 18px;
+	color: #F65A5B;
+	margin-left: 10px;
+}
+.time{
+	font-size: 15px;
+	color: #F65A5B;
+	margin-right: 5px;
+}

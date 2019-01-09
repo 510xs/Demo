@@ -1,0 +1,252 @@
+/*全部商品*/
+.shopCart_box{
+	width: 1240px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.shopCart_box_title{
+	width: 1240px;
+	height: 40px;
+	font-size: 18px;
+	font-weight: 900;
+	color: #333333;
+	line-height: 40px;
+}
+.shopCart_box_content{
+	width: 1240px;
+	height: 40px;
+	position: relative;
+}
+.shopCart_box_left{
+	width: 140px;
+	height: 40px;
+	font-size: 15px;
+	text-indent: 40px;
+	color: #333333;
+	line-height: 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.cart_chk_all{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 50%;
+	margin-top: -7.5px;
+	left: 20px;
+	border: 1px solid #333333;
+}
+.shopCart_box_middle{
+	width: 600px;
+	height: 40px;
+	font-size: 15px;
+	color: #333333;
+	line-height: 40px;
+	position: absolute;
+	top: 0;
+	left: 140px;
+}
+.shopCart_box_right{
+	width: 500px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.shopCart_title_list{
+	width: 125px;
+	height: 40px;
+	font-size: 15px;
+	color: #333333;
+	line-height: 40px;
+}
+.shopCart_hr{
+	width: 1300px;
+	height: 1px;
+	margin: 0 auto;
+	border-top: 2px solid #F65A5B;
+	
+}
+
+/*}商品列表*/
+.cart_list{
+	width: 1240px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.cartList_box{
+	width: 1240px;
+	height: 170px;
+	margin: 0 auto;
+	background-color: #F5F5F5;
+	margin-top: 20px;
+	position: relative;
+}
+.cart_chk{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.cart_img{
+	width: 110px;
+	height: 120px;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+.cart_name{
+	width: 120px;
+	height: 150px;
+	position: absolute;
+	top: 20px;
+	left: 180px;
+}
+.cart_shop{
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	top: 20px;
+	left: 350px;
+}
+.cart_shop div{
+	width: 200px;
+	height: 30px;
+	font-size: 15px;
+	color: #666666;
+	line-height: 30px;
+}
+
+/*总价*/
+.cart_price1,.comdityprice,.cart_num,.cart_caozuo{
+	width: 125px;
+	height: 150px;
+	position: absolute;
+	top: 20px;
+	font-size: 15px;
+}
+.cart_price1{
+	font-size: 18px;
+	font-weight: 900;
+	right: 125px;
+	color: #F65A5B;
+}
+.comdityprice{
+	color: #F65A5B;
+	right: 375px;
+}
+.cart_num{
+	right: 270px;
+}
+.shop_liter,.shop_add{
+	width: 40px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	font-size: 15px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	background-color: #B2B2B2;
+}
+.shop_liter{
+	left: 0;
+}
+.shop_add{
+	right: 0;
+}
+.shop_num{
+	width: 45px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	left: 40px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 30px;
+	color: black;
+}
+/*操作*/
+.cart_caozuo{
+	right: 0;
+}
+.cart_caozuo div{
+	width: 125px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+}
+/*商品删除 支付*/
+.cart_pay_box{
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: #F5F5F5;
+	border-bottom: 5px solid #F65A5B;
+}
+.cart_pay{
+	width: 1240px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+}
+.cart_pay_list01{
+	width: 100px;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 15px;
+	color: #333333;
+	line-height: 60px;
+	text-indent: 40px;
+}
+.cart_pay_delAll{
+	width: 150px;
+	height: 60px;
+	font-size: 15px;
+	color: #F65A5B;
+	line-height: 60px;
+	position: absolute;
+	top: 0;
+	left: 100px;
+	cursor: pointer;
+}
+.cart_pay_choice{
+	width: 150px;
+	height: 60px;
+	font-size: 15px;
+	color: #333333;
+	line-height: 60px;
+	position: absolute;
+	top: 0;
+	right: 300px;
+}
+.cart_pay_total{
+	width: 150px;
+	height: 60px;
+	font-size: 15px;
+	color: #333333;
+	line-height: 60px;
+	position: absolute;
+	top: 0;
+	right: 150px;
+}
+.shopPay{
+	width: 150px;
+	height: 60px;
+	font-size: 24px;
+	font-weight: 900;
+	text-align: center;
+	line-height: 60px;
+	color: rgb(255,255,255);
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #F65A5B;
+}

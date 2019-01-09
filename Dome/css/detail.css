@@ -1,0 +1,335 @@
+.edit_buy_box{
+	width: 1240px;
+	height: 800px;
+	margin: 0 auto;
+	margin-top: 80px;
+	border: 1px solid #F65A5B;
+	position: relative;
+}
+.edit_buy_left{
+	width: 410px;
+	height: 800px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.show_Imgbox{
+	width: 370px;
+	height: 450px;
+	position: absolute;
+	top: 20px;
+	left: 30px;
+}
+.edit_buy_img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.show_Imglist{
+	width: 370px;
+	height: 80px;
+	position: absolute;
+	top: 490px;
+	left: 30px;
+}
+.edit_img_list01:first-child{
+  margin-left: 0px;
+}
+.edit_img_list01{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-left: 16.6px;
+}
+.edit_count{
+	width: 240px;
+	height: 30px;
+	background-color: red;
+	position: absolute;
+	top: 620px;
+	left: 30px;
+}
+.edit_buy_right{
+	width: 700px;
+	height: 790px;
+	position: absolute;
+	top: 0;
+	left: 430px;
+}
+.edit_shopName{
+	width: 700px;
+	height: 80px;
+	font-size: 18px;
+	text-indent: 120px;
+	line-height: 80px;
+}
+.edit_prime,.edit_spe,.edit_address,.edit_parameter,.edit_size,.edit_color,.edit_num,.edit_gobuy,.edit_promise,.edit_pay{
+	width: 700px;
+	height: 50px;
+	position: relative;
+}
+.shop_primeName{
+	width: 200px;
+	height: 50px;
+	font-size: 15px;
+	color: #666666;
+	text-indent: 130px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.shop_primeCont{
+	width: 520px;
+	height: 40px;
+	font-size: 15px;
+	color: #666666;
+	text-decoration: line-through;
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+.shop_spe{
+	width: 520px;
+	height: 40px;
+	font-size: 20px;
+	color: #F65A5B;
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+.edit_discount{
+	width: 700px;
+	height: 100px;
+	position: relative;
+}
+.shop_count{
+	width: 520px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	/*background-color: red;*/
+}
+.shop_address{
+	width: 520px;
+	height: 40px;
+	font-size: 14px;
+	color: #666666;
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+.edit_parameter{
+	font-size: 12px;
+	color: #B2B2B2;
+	text-align: right;
+	line-height: 50px;
+}
+.shop_hr{
+	width: 630px;
+	height: 1px;
+	border-bottom: 1px solid #F65A5B;
+	position: absolute;
+	top: 24px;
+	left: 0;
+}
+.shop_size{
+	width: 35px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: 900;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #333333;
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.shop_size_border{
+	border:1.5px solid #F65A5B;
+}
+.shop_cloth_box{
+	width: 430px;
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	left: 200px;
+}
+.shop_cloth_color{
+	width: 40px;
+	height: 30px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	border: 1px solid #666666;
+	text-align: center;
+	line-height: 30px;
+	font-size: 13px;
+	font-weight: 900;
+	cursor: pointer;
+	color: #666666;
+}
+.shop_borderColor{
+	border:1.5px solid #F65A5B;
+}
+.shop_num_left{
+	width: 30px;
+	height: 30px;
+	background-color: #F5F5F5;
+	position: absolute;
+	top: -5px;
+	left: 210px;
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.shop_input{
+	width: 50px;
+	height: 30px;
+	border: 0.5px solid #B2B2B2;
+	position: absolute;
+	top: -5px;
+	left: 240px;
+	text-align: center;
+	line-height: 30px;
+}
+.shop_num_right{
+	width: 30px;
+	height: 30px;
+	background-color: #F5F5F5;
+	position: absolute;
+	top: -5px;
+	left: 290.5px;
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.edit_gobuy{
+	margin-top: 20px;
+}
+.shop_buy,.shop_addCar{
+	width: 150px;
+	height: 40px;
+	position: absolute;
+	font-size: 18px;
+	font-weight: 900;
+	color: rgb(255,255,255);
+	text-align: center;
+	line-height: 40px;
+	top: 0;
+	cursor: pointer;
+}
+.shop_buy{
+	background-color: #F65A5B;
+	left:200px;
+}
+.shop_addCar{
+	background-color: #204056;
+	left: 370px;
+}
+.edit_promise{
+	margin-top: 10px;
+	line-height: 50px;
+}
+.shop_promis{
+	width: 240px;
+	height: 50px;
+	font-size: 14px;
+	color: #B2B2B2;
+	line-height: 50px;
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+.edit_pay{
+	line-height: 50px;
+}
+.shop_pay1,.shop_pay2,.shop_pay3{
+	height: 50px;
+	font-size: 14px;
+	color: #B2B2B2;
+	line-height: 50px;
+	position: absolute;
+	top: 0;
+}
+.shop_pay1{
+	width: 60px;
+	left: 200px;
+}
+.shop_pay2{
+	width: 60px;
+	left: 270px;
+}
+.shop_pay3{
+	width: 60px;
+	left: 330px;
+}
+.edit_tip{
+	width: 100px;
+	height: 40px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	color: #B2B2B2;
+	background-color: rgb(255,255,255);
+	position: absolute;
+	bottom: -20px;
+	right: 100px;
+}
+/*商品详情*/
+.edit_shop{
+	width: 1240px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.edit_shop_title{
+	width: 320px;
+	height: 50px;
+	margin-left: 0;
+	position: relative;
+}
+.shop_title_txt{
+	color: white;
+	background-color: #F65A5B;
+}
+.edit_shop_title_left,.edit_shop_title_right{
+	width: 160px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+.edit_shop_title_left{
+	left: 0px;
+}
+.edit_shop_title_right{
+	left: 160px;
+}
+.edit_shop_hr{
+	width: 1240px;
+	height: 1px;
+	margin: 0 auto;
+	border-top: 5px solid #F65A5B;
+}
+.edit_shopImg{
+	width: 790px;
+	margin: 0 auto;
+}
+.edit_shopImg img:first-child{
+	margin-top: 50px;
+}
+.edit_shopImg img{
+	width: 790px;
+	margin-top: 30px;
+	margin: 0 auto;
+}

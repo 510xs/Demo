@@ -1,0 +1,154 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="js/jquery-3.3.1/jquery-3.3.1.js"></script>
+    <style type="text/css">
+        .input-val {
+            width: 200px;
+            background: #ffffff;
+            /* padding: 0 0px; */
+            margin-top: 10px;
+            border-radius: 5px;
+            border: none;
+            border: 1px solid rgba(0,0,0,.2);
+            font-size: 13px;
+        }
+ 
+        .ipt {
+            border: 1px solid #d3d3d3;
+            padding: 10px 10px;
+            width: 290px;
+            border-radius: 4px;
+            padding-left: 35px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+            -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+            -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        }
+ 
+            .ipt:focus {
+                border-color: #66afe9;
+                outline: 0;
+                -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+                box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+            }
+    </style>
+</head>
+<body>
+    <div class="code">
+        <span class="v_logo"></span>
+ 
+        <input type="text" value="" placeholder="请输入验证码" class="input-val ipt" />
+        <canvas id="canvas" width="100" height="43"></canvas>
+ 
+        <input type="button" id="submit" value="提交" />
+ 
+    </div>
+    
+    
+    
+    <script type="text/javascript">
+    	
+    	var url = "http://localhost:8080/Itsoure/";
+    	
+    	$.ajax({
+	   		type:"post",
+	   		url:url+"LoginVerificAtion",
+	   		dataType:"text",
+	   		async:true,
+	   		error:function(data){
+	   			alert("显示错误");
+	 			console.log(data.responseText);
+	   		},
+	   		success:function(data){
+//	   			alert("ok");
+                console.log(data);
+                var show_num = [];
+			    $(function () {
+			        draw(show_num);//加载验证码
+			 
+			        //看不清楚重新获取验证码
+			        $("#canvas").on('click', function () {
+			            draw(show_num);
+			        })
+			 
+			        $("#submit").click(function () {
+			            check(); //数据提交前先检查验证码是否填写正确
+			        })
+			    })
+			 
+			    function draw(show_num) {
+			        var canvas_width = $('#canvas').width();
+			        var canvas_height = $('#canvas').height();
+			        var canvas = document.getElementById("canvas");//获取到canvas的对象，演员
+			        var context = canvas.getContext("2d");//获取到canvas画图的环境，演员表演的舞台
+			        canvas.width = canvas_width;
+			        canvas.height = canvas_height;
+			        var aCode = data;
+			        var aLength = aCode.length;//获取到数组的长度
+			 
+			        
+		            var deg = Math.random() * 10 * Math.PI / 180;//产生0~10之间的随机弧度
+		            var txt = aCode;//得到随机的一个内容
+		            show_num = txt.toLowerCase();
+		            context.font = "bold 23px 微软雅黑";
+		            context.translate(0, 0);
+		            context.rotate(deg);
+		            context.fillStyle = randomColor();
+		            context.fillText(txt, 20, 20);
+		            context.rotate(-deg);
+			        
+			        for (var i = 0; i <= 4; i++) { //验证码上显示线条
+			            context.strokeStyle = randomColor();
+			            context.beginPath();
+			            context.moveTo(Math.random() * canvas_width, Math.random() * canvas_height);
+			            context.lineTo(Math.random() * canvas_width, Math.random() * canvas_height);
+			            context.stroke();
+			        }
+			        for (var i = 0; i <= 30; i++) { //验证码上显示小点
+			            context.strokeStyle = randomColor();
+			            context.beginPath();
+			            var x = Math.random() * canvas_width;
+			            var y = Math.random() * canvas_height;
+			            context.moveTo(x, y);
+			            context.lineTo(x + 1, y + 1);
+			            context.stroke();
+			        }
+			    }
+			 
+			    function randomColor() {//得到随机的颜色值
+			        var r = Math.floor(Math.random() * 256);
+			        var g = Math.floor(Math.random() * 256);
+			        var b = Math.floor(Math.random() * 256);
+			        return "rgb(" + r + "," + g + "," + b + ")";
+			    }
+			 
+			 
+			 
+			    function check() {
+			        var val = $(".input-val").val().toLowerCase();
+			        var num = show_num.join("");
+			 
+			        if (val == "") {
+			            alert("请输入验证码");
+			            return false;
+			        } else if (val != num) {
+			            alert('验证码错误！请重新输入！');
+			            $(".input-val").val('');
+			            setTimeout(function () {
+			                draw(show_num);
+			            }, 1000)
+			 
+			            return false;
+			        }
+			        return true;
+			    }
+              }  
+	   	});
+</script>
+</body>
+</html>-->

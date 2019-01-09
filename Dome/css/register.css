@@ -1,0 +1,224 @@
+.reg_maxbox{
+	width: 1240px;
+	height: 1000px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.reg_title{
+	width: 800px;
+	height: 150px;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+.reg_title_top{
+	width: 800px;
+	height: 60px;
+	position: relative;
+	/*background-color: #B2B2B2;*/
+}
+.reg_btn{
+	width: 25px;
+	height: 25px;
+	border: 1.5px solid #F65A5B;
+	border-radius: 50%;
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+.reg_btn_none{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin:-9px 0px 0px -9px;
+	background-color: #F65A5B;
+	display: none;
+}
+/*.dis1{
+	display: none;
+}
+.dis2{
+	display: none;
+}*/
+.reg_txt{
+	width: 60px;
+	height: 60px;
+	font-size: 14px;
+	font-weight: 900;
+	position: absolute;
+	top: 0;
+	/*background-color: green;*/
+}
+.reg_title_txt1{
+	left: 0;
+}
+.reg_title_txt2{
+	left: 350px;
+}
+.reg_title_txtover{
+	left: 720px;
+}
+.reg_hr{
+	width: 300px;
+	height: 1px;
+	position: absolute;
+	top: 40px;
+	border-bottom: 4px solid #F65A5B;
+}
+.reg_title_hr1{
+	left: 55px;
+}
+.reg_title_hr3{
+	left: 410px;
+}
+
+.ret_title_over{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.reg_title_img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 25px;
+	left: 20px;
+}
+.reg_login_txt{
+	width: 275px;
+	height: 35px;
+	margin: 30px 0px 0px 0px;
+	font-size: 13px;
+	color: #333333;
+}
+.reg_content{
+	width: 800px;
+	height: 820px;
+	margin-top: 20px;
+	position: relative;
+}
+/*用户注册*/
+.reg_user{
+	width: 800px;
+	height: 820px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 0.8s ease;
+}
+.reg_user2,.reg_yes{
+	width: 800px;
+	height: 820px;
+	position: absolute;
+	top: 0;
+	left: 2400px;
+	transition: all 0.8s ease;
+}
+.reg_end{
+	width: 800px;
+	height: 50px;
+	margin-top: 300px;
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+	line-height: 50px;
+}
+.reg_ent_txt{
+	width:800px;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+}
+.reg_box_row{
+	width: 450px;
+	height: 80px;
+	margin-top: 20px;
+	position: relative;
+	/*background-color: red;*/
+}
+.reg_row_txt{
+	width: 450px;
+	height: 40px;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 40px;
+}
+.reg_input{
+	width: 450px;
+	height: 40px;
+	border: 1px solid #666666;
+	font-size: 15px;
+	line-height: 40px;
+	text-indent: 15px;
+}
+.reg_input_yz{
+	width: 240px;
+	height: 40px;
+	border: 1px solid #666666;
+	font-size: 15px;
+	line-height: 40px;
+	text-indent: 15px;
+}
+.reg_yz{
+	width: 150px;
+	height: 40px;
+	background-color: #F65A5B;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.reg_next_box{
+	width: 800px;
+	height: 70px;
+	position: relative;
+	margin-top: 60px;
+	/*background-color: red;*/
+}
+.next_hr_left{
+	width: 420px;
+	height: 1px;
+	border-bottom: 1px solid #666666;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+.reg_next{
+	width: 200px;
+	height: 70px;
+	border: 1px solid #666666;
+	position: absolute;
+	top: 0;
+	left: 430px;
+}
+.next_hr_right{
+	width: 160px;
+	height: 1px;
+	border-bottom: 1px solid #666666;
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+.next{
+	width: 180px;
+	height: 50px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 18px;
+	color: rgb(255,255,255);
+	line-height: 50px;
+	text-indent: 100px;
+	cursor: pointer;
+	background-color: #F65A5B;
+}
+.next img{
+	width: 80px;
+	height: 20px;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}

@@ -1,0 +1,151 @@
+/*内容盒子*/
+.box_logo{
+	width: 1240px;
+	height: 120px;
+	margin: 0 auto !important;
+	position: relative;
+}
+.img_logo01{
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+}
+.max_box{
+	width:1240px;
+	height: 750px;
+	margin: 0 auto;
+}
+.login_content{
+	width: 1240px;
+	height: 700px;
+	margin: 0 auto;
+	position: relative;
+	/*background-color: blue;*/
+}
+.login_box{
+	width: 450px;
+	height: 610px;
+	margin-left: 120px;
+	position: relative;
+}
+.login_title{
+	font-size: 24px;
+	line-height: 30px;
+}
+.login_text01{
+	font-size: 14px;
+	line-height: 35px;
+	color: #666666;
+	width: 100%;
+	height: 35px;
+	margin-left: 10px;
+}
+.login_row{
+	width: 450px;
+	height: 40px;
+	margin-top: 40px;
+	border: 1px solid #666666;
+	position: relative;
+}
+.login_row_title{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 40px;
+	font-size: 15px;
+	font-weight: 900;
+	color: #333333;
+	text-indent: 15px;
+	line-height: 40px;
+}
+.login_row_line{
+	position: absolute;
+	top: 5px;
+	left: 100px;
+	width: 1px;
+	height: 30px;
+	border-right: 1.5px solid #666666;
+}
+.login_input{
+	width: 343px;
+	height: 38px;
+	border: none;
+	font-size: 14px;
+	line-height: 40px;
+	position: absolute;
+	top: 0;
+	left: 105px;
+}
+/*验证码*/
+#verification{
+	width: 200px;
+	height: 38px;
+	border: none;
+	font-size: 14px;
+	line-height: 40px;
+	position: absolute;
+	top: 0;
+	left: 105px;
+}
+#verification_box{
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 20px;
+	cursor: pointer;
+}
+#verification_box img{
+	width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;	
+}
+.login{
+	width: 180px;
+	height: 40px;
+	border: none;
+	color: white;
+	font-size: 15px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: 900;
+	margin-top: 60px;
+	margin-left: 100px;
+	background-color: #204056;
+	cursor: pointer;
+}
+.login_txt02{
+	display: block;
+	font-size: 12px;
+	color: #666666;
+	margin: 20px 0px 0px 10px;
+}
+
+/*跳转注册盒子*/
+.register_box{
+	width: 450px;
+	height: 610px;
+	position: absolute;
+	top: 0;
+	left: 690px;
+}
+.register_submit{
+	width: 180px;
+	height: 40px;
+	background-color: #204056;
+	border: none;
+	margin: 80px 0px 0px 20px;
+	text-align: center;
+}
+.register_submit a{
+	font-size: 15px;
+	font-weight: 900;
+	color: white;
+	margin: 0 auto;
+	line-height: 40px;
+	text-decoration: none;
+}

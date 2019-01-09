@@ -1,0 +1,367 @@
+.personal_box{
+	width: 1240px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 50px;
+	position: relative;
+}
+.personal_left{
+	width: 280px;
+	height: 450px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #204056;
+}
+.personal_title{
+	width: 280px;
+	height: 60px;
+	position: relative;
+	font-size: 16px;
+	font-weight: 900;
+	text-align: center;
+	line-height: 60px;
+	color: rgb(255,255,255);
+	margin-bottom: 20px;
+}
+.personal_title img{
+	width: 35px;
+	height: 32px;
+	position: absolute;
+	top: 14px;
+	left: 20px;
+}
+.personal_list{
+	width: 280px;
+	height: 45px;
+	position: relative;
+	font-size: 14px;
+	/*text-indent: 120px;*/
+	text-align: center;
+	line-height: 45px;
+	color: rgb(255,255,255);
+	cursor: pointer;
+	/*border-bottom: 1.5px solid white;*/
+}
+.personal_list_dis{
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	top: 19px;
+	left: 90px;
+	background-color: rgb(255,255,255);
+}
+.personal_list_none{
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	top: 22.5px;
+	left: 30px;
+	transition: all 0.5s ease;
+}
+.personal_list_hr{
+	width: 110px;
+	height: 1px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -55px;
+	border-bottom: 1px solid rgb(255,255,255);
+	transition: all 0.5s ease;
+}
+.personal_list_hrLong{
+	width: 240px;
+	height: 1px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -120px;
+	border-bottom: 1px solid rgb(255,255,255);
+	transition: all 0.5s ease;
+}
+.personal_right{
+	width: 900px;
+	height: 450px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.personal_content{
+	width: 900px;
+	height: 450px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.personal_aboutAddr{
+	width: 900px;
+	height: 200px;
+	border: 1px solid #F65A5B;
+}
+.aboutAddr_top,.aboutAddr_bottom{
+	width: 900px;
+	height: 100px;
+	position: relative;
+}
+.aboutAddr_top{
+	background-color: #F5F5F5;
+}
+.aboutAddr_top_img{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.aboutAddr_top_userName{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 100px;
+	font-size: 18px;
+	color: #333333;
+	line-height: 60px;
+}
+.aboutAddr_top_logistics{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 260px;
+	font-size: 13px;
+	color: #666;
+	line-height: 100px;
+}
+.aboutAddr_top_shopList,.aboutAddr_top_pay{
+	width: 150px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	font-size: 13px;
+	color: #666;
+	line-height: 100px;
+}
+.aboutAddr_top_shopList{
+	left: 560px;
+}
+.aboutAddr_top_pay{
+	right: 0;
+}
+.aboutAddr_bottom_detail{
+	width: 180px;
+	height: 100px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 100px;
+	border: none;
+	position: relative;
+}
+.aboutAddr_bottom_line{
+	width: 1px;
+	height: 40px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	border-right: 1.5px solid #F65A5B;
+}
+/*我的账户*/
+.myPer_title{
+	width: 900px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: 900;
+	color: #F65A5B;
+	line-height: 50px;
+}
+.myPer_content{
+	width: 900px;
+	height: 330px;
+	border: 1px solid #F65A5B;
+	position: relative;
+}
+.myPer_photo,.myPer_information,.myPer_moreInfor{
+	width: 300px;
+	height: 180px;
+	position: absolute;
+	top: 0;
+}
+.myPer_photo{
+	left: 0;
+}
+.myPer_photoName{
+	width: 100px;
+	height: 50px;
+	font-size: 15px;
+	color: #333;
+	line-height: 50px;
+	text-indent: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.myPer_photo img{
+	width: 110px;
+	height: 120px;
+	position: absolute;
+	top: 15px;
+	left: 100px;
+}
+.myPer_information{
+	left: 300px;
+}
+.myPer_row:first-child{
+	margin-top: 15px;
+}
+.myPer_row{
+	width: 300px;
+	height: 35px;
+	font-size: 15px;
+	color: #333333;
+	line-height: 35px;
+	position: relative;
+}
+.myPer_row_user{
+	width: 150px;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	left: 100px;
+}
+.myPer_moreInfor{
+	left: 600px;
+}
+.myPer_about,.myPer_addr{
+	width: 449px;
+	height: 150px;
+	position: absolute;
+	top: 170px;
+	border: none;
+}
+.myPer_about{
+	left: 0;
+}
+.myPer_bottomRow{
+	width: 450px;
+	height: 35px;
+	font-size: 15px;
+	color: #333333;
+	line-height: 35px;
+	text-indent:20px;
+	position: relative;
+}
+.myPer_bottom_txt{
+	width: 300px;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	left: 100px;
+}
+.myPer_line{
+	width: 1px;
+	height: 120px;
+	position: absolute;
+	top: 180px;
+	left: 40%;
+	border-right: 1px solid #F65A5B;
+}
+.myPer_addr{
+	left: 449px;
+}
+.myPer_btn{
+	width: 180px;
+	height: 40px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+	color: rgb(255,255,255);
+	background-color: #F65A5B;
+	margin-top: 20px;
+	margin-right: 0px;
+	cursor: pointer;
+}
+/*账户设置*/
+.myPer_remove{
+	width: 900px;
+	height: 500px;
+	border: 1px solid #F65A5B;
+}
+.myPer_remove_title{
+	width: 900px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 50px;
+	text-indent: 20px;
+	color: #F65A5B;
+}
+.myPer_removeContent{
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.myPer_removeContent_left,.myPer_removeContent_right{
+	width: 450px;
+	height: 400px;
+	position: absolute;
+	top: 0;
+}
+.myPer_removeContent_left{
+	left: 0;
+	/*background: red;*/
+}
+.myPer_removeContent_right{
+	right: 0;
+}
+.myPer_input_row{
+	width: 450px;
+	height: 30px;
+	font-size: 15px;
+	color: #333333;
+	line-height: 30px;
+	text-indent: 40px;
+	margin-top: 20px;
+	position: relative;
+}
+.myPer_input{
+	width: 240px;
+	height: 30px;
+	border: none;
+	border-bottom: 1.5px solid #F65A5B;
+	font-size: 15px;
+	text-indent: 5px;
+	position: absolute;
+	top: 0;
+	left: 130px;
+	background-color: none;
+}
+.myPer_input_img{
+	width: 450px;
+	height: 100px;
+	font-size: 15px;
+	color: #333333;
+	line-height: 30px;
+	text-indent: 40px;
+	margin-top: 20px;
+	position: relative;
+}
+.myPer_show_img{
+	width: 200px;
+	height: 120px;
+	position: absolute;
+	top: 0;
+    left: 170px;
+    border: 1.5px solid #F65A5B;	
+}
+.myPer_remove_btn{
+	width: 150px;
+	height: 40px;
+	background-color: #F65A5B;
+	font-size: 18px;
+	color: rgb(255,255,255);
+	text-align: center;
+	line-height: 40px;
+    margin: 30px 0px 0px 50px;
+    cursor: pointer;	
+}

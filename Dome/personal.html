@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人中心</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/personal.css"/>
+		<script src="js/jquery-3.3.1/jquery-3.3.1.js"></script>
+		<script src="js/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+		<script src="js/common.js"></script>
+	</head>
+	<body>
+		<!--顶部内容-->
+		<div class="title">
+			<div class="title_box">
+				<div class="title_box_user"></div>
+				<ul>
+					<li class="fl">
+						<div class="myaccount">
+							<img class="title_box_img" src="img/icon/account.png"/>
+							<a href="personal.html">我的账户</a>
+							<div class="title_box_line"></div>
+						</div>
+					</li>
+					<li class="fl">
+						<div class="myaccount">
+							<img class="title_box_img" src="img/icon/service_white.png"/>
+							<a href="#">联系客服</a>
+							<div class="title_box_line"></div>
+						</div>
+					</li>
+					<li class="fl">
+						<div class="myaccount">
+							<img class="title_box_img2" src="img/icon/news_white.png"/>
+						        消息
+						</div>
+					</li>
+					<li class="fc"></li>
+				</ul>
+			</div>
+		</div>
+		<!--logo-->
+		
+		<div class="logo_box">
+			<img class="img_logo01" src="img/logo.jpg"/>
+			<img class="img_logo02" src="img/logo2.png"/>
+			<!--搜索框-->
+			<div class="box_serch">
+				<input type="text" id="serch" />
+				<div class="serch_line"></div>
+				<div class="serch_btn">
+					<img class="serch_img" src="img/icon/ic_serch.png" />
+				</div>
+			</div>
+			<!--购物车-->
+			<div class="shopcart">
+				<img src="img/icon/cart-plus.png" class="shopCart_img" />
+				购物车
+			</div>
+		</div>
+		
+		<!--个人中心主体内容-->
+		<div class="personal_box">
+			<div class="personal_left">
+				<div class="personal_title">
+					<img src="img/icon/personal_title.png"/>
+					全部功能
+				</div>
+				<div class="personal_list myPer_list"><div class="personal_list_dis"></div>物流信息<div class="personal_list_hr hr_list"></div></div>
+				<div class="personal_list myPer_list"><div class="personal_list_dis"></div>我的账户<div class="personal_list_hr hr_list"></div></div>
+				<div class="personal_list myPer_list"><div class="personal_list_dis"></div>账户设置<div class="personal_list_hr hr_list"></div></div>
+				<div class="personal_list"><div class="personal_list_dis"></div>我的购物车<div class="personal_list_hr hr_list"></div></div>
+				<div class="personal_list"><div class="personal_list_dis"></div>消息<div class="personal_list_hr hr_list"></div></div>
+				<div class="personal_list quit">退出登录</div>
+			</div>
+			<div class="personal_right">
+				<!--物流信息-->
+				<div class="personal_content show" style="display: block;">
+					<div class="personal_aboutAddr">
+						<div class="aboutAddr_top"></div>
+						<div class="aboutAddr_bottom">
+							<div class="aboutAddr_bottom_detail fl">待付款<div class="aboutAddr_bottom_line"></div></div>
+							<div class="aboutAddr_bottom_detail fl">待发货<div class="aboutAddr_bottom_line"></div></div>
+							<div class="aboutAddr_bottom_detail fl">待收货<div class="aboutAddr_bottom_line"></div></div>
+							<div class="aboutAddr_bottom_detail fl">待评价<div class="aboutAddr_bottom_line"></div></div>
+							<div class="aboutAddr_bottom_detail fl">退款</div>
+							<div class="fc"></div>
+						</div>
+					</div>
+				</div>
+				<!--我的账户-->
+				<div class="personal_content show look" style="display: none;">
+					<div class="myPer_title">我的账户</div>
+					<div class="myPer_content">
+						<div class="myPer_photo"></div>
+						<div class="myPer_information"></div>
+						<div class="myPer_moreInfor"></div>
+						<div class="myPer_about"></div>
+						<div class="myPer_line"></div>
+						<div class="myPer_addr"></div>
+					</div>
+					<div class="myPer_btn">修改信息</div>
+				</div>
+				<!--账户设置-->
+				<div class="personal_content show remove" style="display: none;">
+					<div class="myPer_remove">
+						<div class="myPer_remove_title">账户设置</div>
+						<div class="myPer_removeContent">
+							<div class="myPer_removeContent_left">
+								<div class="myPer_input_row">用户昵称：<input type="text" class="myPer_input" id="userName" /></div>
+								<div class="myPer_input_row">真实姓名：<input type="text" class="myPer_input" id="uName" /></div>
+								<div class="myPer_input_row">用户密码：<input type="text" class="myPer_input" id="userPassWord" /></div>
+								<div class="myPer_input_row">手机号码：<input type="text" class="myPer_input" id="tel" /></div>
+								<div class="myPer_input_row">用户邮箱：<input type="text" class="myPer_input" id="eMail" /></div>
+								<div class="myPer_input_img">上传头像：<div class="myPer_show_img"></div> </div>
+							</div>
+							<div class="myPer_removeContent_right">
+								<div class="myPer_input_row">性别：<input type="text" class="myPer_input" id="sex" /></div>
+								<div class="myPer_input_row">年龄：<input type="text" class="myPer_input" id="age" /></div>
+								<div class="myPer_input_row">生日：<input type="text" class="myPer_input" id="birthday" /></div>
+								<div class="myPer_input_row">家乡：<input type="text" class="myPer_input" id="hometown" /></div>
+								<div class="myPer_input_row">现居住地：<input type="text" class="myPer_input" id="residence" /></div>
+								<div class="myPer_input_row">配送地址：<input type="text" class="myPer_input" id="logistics" /></div>
+								<div class="myPer_input_row">个性签名：<input type="text" class="myPer_input" id="signature" /></div>
+								<div class="myPer_remove_btn">修改</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--我的购物车-->
+				<!--<div class="personal_content"></div>-->
+				<!--消息-->
+				<!--<div class="personal_content"></div>-->
+			</div>
+		</div>
+		
+		
+		<!--小贴士-->
+		<div class="tips">
+			<div class="tips_hr"></div>
+			<div class="tips_content">
+				<img class="tips_img1" src="img/footer_bg.png">
+				<img class="tips_img2" src="img/footer_bg.png">
+				<img class="tips_img3" src="img/footer_bg.png">
+				<img class="tips_img4" src="img/footer_bg.png">
+			</div>
+		</div>
+		
+		<!--页脚-->
+		<div class="footer">
+				<div class="footer_content">
+					<!--关于我们-->
+					<ul class="ul_about">
+						<li class="ul_li_title">关于我们</li>
+						<li class="ul_about_content">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.
+						</li>
+					</ul>
+					<!--服务中心-->
+					<ul class="ul_service">
+						<li class="ul_li_title">服务中心</li>
+						<li class="ul_li_row">关于我们</li>
+						<li class="ul_li_row">配送信息</li>
+						<li class="ul_li_row">联系客服</li>
+						<li class="ul_li_row">隐私政策</li>
+						<li class="ul_li_row">服务条款</li>
+					</ul>
+					<ul class="ul_personal">
+						<li class="ul_li_title">个人中心</li>
+						<li class="ul_li_row">我的账户</li>
+						<li class="ul_li_row">购物所有清单</li>
+						<li class="ul_li_row">购物车</li>
+					</ul>
+					<ul class="ul_more">
+						<li class="ul_li_title">更多</li>
+						<li class="ul_li_row">品牌</li>
+						<li class="ul_li_row">合作公司</li>
+						<li class="ul_li_row">隐私政策</li>
+						<li class="ul_li_row">法规政策</li>
+					</ul>
+				</div>
+		</div>
+		
+		<script src="js/personal.js"></script>
+	</body>
+</html>

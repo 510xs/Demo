@@ -1,0 +1,40 @@
+.pro_man_box,.pro_men_box{
+	width: 1240px;
+	height: 780px;
+	margin: 0 auto;
+	margin-top: 80px;
+	position: relative;
+	border: 1px solid #F65A5B;
+}
+.pro_man,.pro_men{
+	width: 1240px;
+	height: 720px;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+
+.man_title_box{
+	width: 120px;
+	height: 50px;
+	background-color: #F65A5B;
+	position: absolute;
+	left: 20px;
+	top: -25px;
+	font-size: 15px;
+	font-weight: 900;
+	color: rgb(255,255,255);
+	text-align: center;
+	line-height: 50px;
+}
+/*活动信息*/
+.pro_new1{
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 80px;
+	background-color: red;
+}
+.pro_new1 img{
+	width: 100%;
+	height: 100%;
+}

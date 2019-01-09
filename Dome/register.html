@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<script src="js/jquery-3.3.1/jquery-3.3.1.js"></script>
+		<script src="js/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+		<!--顶部内容-->
+		<div class="title">
+			<div class="title_box">
+				<div class="title_box_user">亲，您还没有登录哟,请登录</div>
+				<ul>
+					<li class="fl">
+						<div class="myaccount">
+							<img class="title_box_img" src="img/icon/account.png"/>
+							我的账户
+							<div class="title_box_line"></div>
+						</div>
+					</li>
+					<li class="fl">
+						<div class="myaccount">
+							<img class="title_box_img" src="img/icon/service_white.png"/>
+							联系客服
+							<div class="title_box_line"></div>
+						</div>
+					</li>
+					<li class="fl">
+						<div class="myaccount">
+							<img class="title_box_img2" src="img/icon/news_white.png"/>
+						        消息
+						</div>
+					</li>
+					<li class="fc"></li>
+				</ul>
+			</div>
+		</div>
+		<!--logo-->
+		
+		<div class="logo_box">
+			<img class="img_logo01" src="img/logo.jpg"/>
+			<img class="img_logo02" src="img/logo2.png"/>
+		</div>
+		<!--注册内容-->
+		<div class="reg_maxbox">
+			<div class="reg_title">
+				<div class="reg_title_top">
+					<div class="reg_title_txt1 reg_txt">
+						用户注册
+					    <div class="reg_btn">
+					    	<div class="reg_btn_none dis1"></div>
+					    </div>
+					</div>
+					<div class="reg_title_hr1 reg_hr"></div>
+					<div class="reg_title_txt2 reg_txt">基本信息
+					    <div class="reg_btn">
+					    	<div class="reg_btn_none  dis2"></div>
+					    </div>
+					</div>
+					<div class="reg_title_hr3 reg_hr"></div>
+					<div class="reg_title_txtover reg_txt">注册完成
+					     <div class="ret_title_over">
+					     	<img class="reg_title_img dis_img1" src="img/icon/over_dismark.png"/>
+					     	<img class="reg_title_img dis_img2" src="img/icon/over_red.png" style="display: none;"/>
+					     </div>
+					</div>
+				</div>
+				<div class="reg_login_txt">欢迎您，请输入以下详细信息以继续。
+如果您之前已在我们这里注册，请单击此处</div>
+			</div>
+			<div class="reg_content">
+				<div class="reg_user">
+					<div class="reg_box_row">
+						<div class="reg_row_txt">用户昵称：</div>
+						<input type="text" class="reg_input userName" placeholder="请输入用户昵称" />
+					</div>
+					<div class="reg_box_row">
+						<div class="reg_row_txt">用户密码：</div>
+						<input type="password" class="reg_input passWord" placeholder="请输入用户昵称" />
+					</div>
+					<div class="reg_box_row">
+						<div class="reg_row_txt">确认密码：</div>
+						<input type="password" class="reg_input rpassWord" placeholder="请输入用户昵称" />
+					</div>
+					<div class="reg_box_row">
+						<div class="reg_row_txt">E-mail：</div>
+						<input type="email" class="reg_input eMail" placeholder="请输入用户昵称" />
+					</div>
+					<div class="reg_box_row">
+						<div class="reg_row_txt">手机号码：</div>
+						<input type="tel" class="reg_input tel" placeholder="请输入用户昵称" />
+					</div>
+					<div class="reg_box_row">
+						<div class="reg_row_txt">验证码：</div>
+						<input type="text" class="reg_input_yz" placeholder="请输入用户昵称" />
+						<div class="reg_yz">5543</div>
+					</div>
+					<div class="reg_next_box">
+						<div class="next_hr_left"></div>
+						<div class="reg_next">
+							<div class="next">
+								<img src="img/icon/icon_next.png"/>
+								下一步</div>
+						</div>
+						<div class="next_hr_right"></div>
+					</div>
+				</div>
+				
+				<!--隐藏的第二个div-->
+				    <div class="reg_user2">
+						<div class="reg_box_row">
+							<div class="reg_row_txt">真实姓名：</div>
+							<input type="text" class="reg_input uName" placeholder="请输入用户昵称" />
+						</div>
+						<div class="reg_box_row">
+							<div class="reg_row_txt">性别：</div>
+							<input type="text" class="reg_input sex" placeholder="请输入用户昵称" />
+						</div>
+						<div class="reg_box_row">
+							<div class="reg_row_txt">年龄：</div>
+							<input type="text" class="reg_input age" placeholder="请输入用户昵称" />
+						</div>
+						<div class="reg_box_row">
+							<div class="reg_row_txt">生日：</div>
+							<input type="text" class="reg_input birthday" placeholder="请输入用户昵称" />
+						</div>
+						<div class="reg_box_row">
+							<div class="reg_row_txt">配送地址：</div>
+							<input type="text" class="reg_input logistics" placeholder="请输入用户昵称" />
+						</div>
+						<div class="reg_box_row">
+							<div class="reg_row_txt">个性签名：</div>
+							<input type="text" class="reg_input signature" placeholder="请输入用户昵称" />
+						</div>
+						<div class="reg_next_box">
+							<div class="next_hr_left"></div>
+							<div class="reg_next">
+								<div class="next" id="register">
+									<img src="img/icon/icon_next.png"/>
+									提交</div>
+							</div>
+							<div class="next_hr_right"></div>
+						</div>
+					</div>
+					
+				    	<!--注册成功-->
+					<div class="reg_yes">
+						<div class="reg_end">注册成功</div>
+						<div class="reg_ent_txt">3秒后自动跳转到首页，若不能跳转请点击这里</div>
+					</div>
+				</div>
+			
+			</div>
+			
+			
+		</div>
+		
+		<!--页脚-->
+		<div class="footer">
+				<div class="footer_content">
+					<!--关于我们-->
+					<ul class="ul_about">
+						<li class="ul_li_title">关于我们</li>
+						<li class="ul_about_content">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.
+						</li>
+					</ul>
+					<!--服务中心-->
+					<ul class="ul_service">
+						<li class="ul_li_title">服务中心</li>
+						<li class="ul_li_row">关于我们</li>
+						<li class="ul_li_row">配送信息</li>
+						<li class="ul_li_row">联系客服</li>
+						<li class="ul_li_row">隐私政策</li>
+						<li class="ul_li_row">服务条款</li>
+					</ul>
+					<ul class="ul_personal">
+						<li class="ul_li_title">个人中心</li>
+						<li class="ul_li_row">我的账户</li>
+						<li class="ul_li_row">购物所有清单</li>
+						<li class="ul_li_row">购物车</li>
+					</ul>
+					<ul class="ul_more">
+						<li class="ul_li_title">更多</li>
+						<li class="ul_li_row">品牌</li>
+						<li class="ul_li_row">合作公司</li>
+						<li class="ul_li_row">隐私政策</li>
+						<li class="ul_li_row">法规政策</li>
+					</ul>
+				</div>
+		</div>
+		
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

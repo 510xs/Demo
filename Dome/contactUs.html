@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+		<meta name="keywords" content="百度地图api" />
+		<meta name="description" content="百度地图自定义地图" />
+		<title>联系我们</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/contactUs.css"/>
+		<script src="js/jquery-3.3.1/jquery-3.3.1.js"></script>
+		<script src="js/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+		<script src="js/common.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=1.1&amp;ak=&amp;services=true&amp;t=20130716024058"></script>
+		<link rel="stylesheet" type="text/css" href="http://api.map.baidu.com/res/11/bmap.css">
+		<script type="text/javascript" src="http://api.map.baidu.com/api?key=67bd734bd2ef5e5ccecfeccbb5a221ee&amp;v=1.1&amp;services=true"></script>
+		<style type="text/css">
+			.iw_poi_title{color: #CC5522;
+			              font-size: 14px;
+			              font-weight: bold;
+			              overflow: hidden;
+			              padding-right: 13px;
+			              white-space: nowrap;
+			              }
+			.iw_poi_content{
+				font: 12px arial,sans-serif;
+				overflow: visible;
+				padding-top: 4px;
+				white-space: -moz-pre-discard-newlines;
+				word-wrap: break-word;
+			}
+		</style>
+	</head>
+	<body>
+		<!--顶部内容-->
+		<div class="title">
+			<div class="title_box">
+				<div class="title_box_user"></div>
+				<ul>
+					<li class="fl">
+						<div class="myaccount">
+							<img class="title_box_img" src="img/icon/account.png"/>
+							<a href="personal.html">我的账户</a>
+							<div class="title_box_line"></div>
+						</div>
+					</li>
+					<li class="fl">
+						<div class="myaccount">
+							<img class="title_box_img" src="img/icon/service_white.png"/>
+							<a href="#">联系客服</a>
+							<div class="title_box_line"></div>
+						</div>
+					</li>
+					<li class="fl">
+						<div class="myaccount">
+							<img class="title_box_img2" src="img/icon/news_white.png"/>
+						        消息
+						</div>
+					</li>
+					<li class="fc"></li>
+				</ul>
+			</div>
+		</div>
+		<!--logo-->
+		
+		<div class="logo_box">
+			<img class="img_logo01" src="img/logo.jpg"/>
+			<img class="img_logo02" src="img/logo2.png"/>
+			<!--搜索框-->
+			<div class="box_serch">
+				<input type="text" id="serch" />
+				<div class="serch_line"></div>
+				<div class="serch_btn">
+					<img class="serch_img" src="img/icon/ic_serch.png" />
+				</div>
+			</div>
+			<!--购物车-->
+			<div class="shopcart">
+				<img src="img/icon/cart-plus.png" class="shopCart_img" />
+				购物车
+			</div>
+		</div>
+		
+		<!--导航栏-->
+		<div class="nav_box">
+			<div class="nav_content">
+				<ul class="nav_ul">
+					<li class="nav_li fl nav_color"><a href="index.html">首页</a></li>
+					<li class="nav_li fl"><a href="productList.html">产品</a></li>
+					<li class="nav_li fl"><a href="personality.html">个性定制</a></li>
+					<li class="nav_li fl"><a href="newProduct.html">新品区</a></li>
+					<li class="nav_li fl"><a href="activity.html">品牌活动</a></li>
+					<li class="nav_li fl"><a href="contactUs.html">关于我们</a></li>
+					<li class="fc"></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--联系我们主体内容-->
+		<div class="cont_box">
+			<div class="cont_box_title">Contact Us</div>
+			<div class="cont_content">
+				<div class="cont_left">
+					<div class="cont_row">
+						<div class="cont_row_txt">留下您的大名:</div>
+						<input class="cont_input" type="text" placeholder="请问尊姓大名" id="contName" />
+					</div>
+					<div class="cont_row">
+						<div class="cont_row_txt">留下您的联系电话:</div>
+						<input class="cont_input" type="tel" placeholder="请输入您的电话号码" id="contTel" />
+					</div>
+					<div class="cont_row">
+						<div class="cont_row_txt">留下您的E-mail:</div>
+						<input class="cont_input" type="email" placeholder="请输入您的E-mail" id="contEmail" />
+					</div>
+					<div class="cont_row">
+						<div class="cont_row_txt">留下您的建议:</div>
+						<textarea class="cont_input_long" placeholder="内容不超过150字" id="contTxt" /></textarea>
+					</div>
+					<div class="cont_sub" id="cont_sub">提交</div>
+				</div>
+				<div class="cont_right">
+					<div class="cont_addr_box">
+						<div class="cont_addr_top"></div>
+						<div class="cont_addr_bottom"></div>
+						<div class="cont_address" id="dituContent"><!--<img src="img/address.jpg" />--></div>
+					</div>
+				</div>
+			</div>
+			<!--我们的联系方式-->
+			<div class="cont_we">
+				<div class="cont_loction">
+					<img src="img/icon/address.png"/>
+					<div class="cont_box_txt">
+						<div class="cont_txt_top">Location</div>
+						<div class="cont_txt_bottom">四川省遂宁市四川职业技术学院</div>
+					</div>
+				</div>
+				<div class="cont_email">
+					<img src="img/icon/Email Connect.png"/>
+					<div class="cont_box_txt">
+						<div class="cont_txt_top">E-mail</div>
+						<div class="cont_txt_bottom">nidaye@123.com</div>
+					</div>
+				</div>
+				<div class="cont_tel">
+					<img src="img/icon/tel.png"/>
+					<div class="cont_box_txt">
+						<div class="cont_txt_top">Tel</div>
+						<div class="cont_txt_bottom">083 - 458861</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--页脚-->
+		<div class="footer">
+				<div class="footer_content">
+					<!--关于我们-->
+					<ul class="ul_about">
+						<li class="ul_li_title">关于我们</li>
+						<li class="ul_about_content">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.
+						</li>
+					</ul>
+					<!--服务中心-->
+					<ul class="ul_service">
+						<li class="ul_li_title">服务中心</li>
+						<li class="ul_li_row">关于我们</li>
+						<li class="ul_li_row">配送信息</li>
+						<li class="ul_li_row">联系客服</li>
+						<li class="ul_li_row">隐私政策</li>
+						<li class="ul_li_row">服务条款</li>
+					</ul>
+					<ul class="ul_personal">
+						<li class="ul_li_title">个人中心</li>
+						<li class="ul_li_row">我的账户</li>
+						<li class="ul_li_row">购物所有清单</li>
+						<li class="ul_li_row">购物车</li>
+					</ul>
+					<ul class="ul_more">
+						<li class="ul_li_title">更多</li>
+						<li class="ul_li_row">品牌</li>
+						<li class="ul_li_row">合作公司</li>
+						<li class="ul_li_row">隐私政策</li>
+						<li class="ul_li_row">法规政策</li>
+					</ul>
+				</div>
+		</div>
+		
+		
+		<script src="js/contactUs.js"></script>
+		<script type="text/javascript">
+			
+		    //创建和初始化地图函数：
+		    function initMap(){
+		        createMap();//创建地图
+		        setMapEvent();//设置地图事件
+		        addMapControl();//向地图添加控件
+		    }
+		    
+		    //创建地图函数：
+		    function createMap(){
+		        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+		        var point = new BMap.Point(105.629172,30.540638);//定义一个中心点坐标
+		        map.centerAndZoom(point,14);//设定地图的中心点和坐标并将地图显示在地图容器中
+		        window.map = map;//将map变量存储在全局
+		    }
+		    
+		    //地图事件设置函数：
+		    function setMapEvent(){
+		        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+		        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+		        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+		        map.enableKeyboard();//启用键盘上下左右键移动地图
+		    }
+		    
+		    //地图控件添加函数：
+		    function addMapControl(){
+		        //向地图中添加缩放控件
+			var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_RIGHT,type:BMAP_NAVIGATION_CONTROL_ZOOM});
+			map.addControl(ctrl_nav);
+		        //向地图中添加缩略图控件
+			var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_TOP_LEFT,isOpen:0});
+			map.addControl(ctrl_ove);
+		        //向地图中添加比例尺控件
+			var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT});
+			map.addControl(ctrl_sca);
+		    }
+		    
+		    
+		    initMap();//创建和初始化地图
+
+
+		</script>
+	</body>
+</html>
