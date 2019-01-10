@@ -30,10 +30,7 @@ $(function(){
      	$.ajax({
      		type:"post",
      		url:url+"WebLoginAction",
-     		dataType:"jsonp",
-     		jsonp:"jsonpCallback",
-     		contentType:"application/json",
-     		jsonpCallback:"data",
+     		dataType:"json",
 //   		xhrFields: {
 //						withCredentials: true
 //			},
